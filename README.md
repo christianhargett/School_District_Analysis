@@ -17,3 +17,12 @@
 ![](https://github.com/christianhargett/School_District_Analysis/blob/master/Resources/District_Summary_After.png)
 
 - The replacement of scores has a relatively small impact on the district snapshot, as the average math score has only dropped .1% while each "% Passing" category has only dropped 1%.
+
+- Our school summary dataframe, however, is not so relatively unaffected. This dataframe contains similar metrics as the district summary except it is broken out by school. In our initial reporting, the % passing metrics for Thomas High School were as follows:
+  - % Passing Math: 93.3%, % Passing Reading: 97.3%, % Overall Passing: 90.9%
+
+- After replacing the 9th grade values, the new metrics are as follows:
+
+  - % Passing Math: 66.9%, % Passing Reading: 69.7%, % Overall Passing: 65.1%
+
+- We can see there is a drastic difference in the passing rates once we replace the 9th grade math and reading scores.
