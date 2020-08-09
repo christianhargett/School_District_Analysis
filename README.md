@@ -2,4 +2,18 @@
 
 ## Overview of the Project
 
-### In this project we have been given a dataset by our manager, Maria, who has asked us to clean and manipulate the dataset in order to produce an analysis that she will later present to the school board. This analysis includes: a high-level snapshot of the district's key metrics, top 5 and bottom 5 performing schools based on the overall passing rate, the average math and reading scores by grade level, & school performance based on budget per student, school size, and type of school. After performing our analysis, Maria has informed us that the school board believes our raw data shows evidence of academic dishonesty, specifically from the reported math and reading scores of the 9th graders at Thomas High School. Maria has asked that we replace the reading and math scores from the 9th graders at Thomas High School and re-run the analysis, then compare the new metrics to our initial metrics.
+### In this project we have been given a dataset of student test scores for a particular school district by our manager, Maria, who has asked us to clean and manipulate the dataset in order to produce an analysis that she will later present to the school board. This analysis includes: a high-level snapshot of the district's key metrics, top 5 and bottom 5 performing schools based on the overall passing rate, the average math and reading scores by grade level, & school performance based on budget per student, school size, and type of school. After performing our analysis, Maria has informed us that the school board believes our raw data shows evidence of academic dishonesty, specifically from the reported math and reading scores of the 9th graders at Thomas High School. Maria has asked that we replace the reading and math scores from the 9th graders at Thomas High School and re-run the analysis, then compare the new metrics to our initial metrics.
+
+## Results
+
+### After replacing the math and reading scores of the 9th graders at Thomas High School with NaNs, our key metrics that we initially provided to Maria have changed:
+
+- The district summary dataframe is a high-level overview of the key metrics for the entire district. These metrics include the total school and student count, total budget count, average math and reading scores, and % passing rates for math and reading as well as the overall passing rate. Before replacing the 9th grade Thomas High School scores our dataframe looked like the below:
+
+![](https://github.com/christianhargett/School_District_Analysis/blob/master/Resources/District_Summary_Before.png)
+
+- After replacing the values, our updated dataframe has a few changes:
+
+![](https://github.com/christianhargett/School_District_Analysis/blob/master/Resources/District_Summary_After.png)
+
+- The replacement of scores has a relatively small impact on the district snapshot, as the average math score has only dropped .1% while each "% Passing" category has only dropped 1%.
