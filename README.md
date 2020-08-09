@@ -32,3 +32,15 @@
 - Thomas High School is no longer in the top 5 schools once we replace their 9th grade score values:
 
 ![](https://github.com/christianhargett/School_District_Analysis/blob/master/Resources/Top_Schools_After.png)
+
+- When looking at the dataframe that shows metrics by grade level, the only difference in our before vs. after snapshot is that the values for 9th grade at Thomas High School display as "Nan". This is expected, since we essentially voided all of the 9th grade scores from Thomas High School.
+
+- Another dataframe we created was the spending per school summary. We put schools into 1 of 4 categories based off of their average spending per student. Our initial dataframe is as follows:
+
+![](https://github.com/christianhargett/School_District_Analysis/blob/master/Resources/Per_School_Spending_Before.png)
+
+- After replacing our values we have the following dataframe:
+
+![](https://github.com/christianhargett/School_District_Analysis/blob/master/Resources/Per_School_Spending_After.png)
+
+- We can see that the "630-644" bin passing rates have dropped. This is because Thomas High School is included in this bin, and when we replaced their 9th grade scores their passing rates also dropped.
