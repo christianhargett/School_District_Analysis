@@ -64,3 +64,7 @@
 ![](https://github.com/christianhargett/School_District_Analysis/blob/master/Resources/School_Type_After.png)
 
 - We can see that the passing rates have dropped for Charter, since Thomas High School is a charter school.
+
+## Summary
+
+### Overall, replacing the 9th grade scores of Thomas High School greatly affects our dataframes that Maria will ultimately report to the schoolboard. One of the major changes that occurs when we replace their data is that Thomas High School drops out of the top 5 performing schools entirely. They go from being the 2nd highest performing school to not even being in the top 5 at all. Another sizeable change is in the spending per school summary. The passing rates for the "630-644" bin dramatically decrease once we update Thomas High School's values. A third dataframe that is affected by the new values is the school size dataframe. Once we replace Thomas High Schools values, the passing rate for the Medium sized school bin decreases. Lastly, the school type dataframe is also affected by the replacing of the values. Since Thomas High School is a charter school, the passing rates for the Charter category drop once we replace their 9th grade reading and writing scores.
