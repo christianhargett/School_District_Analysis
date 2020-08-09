@@ -25,7 +25,7 @@
 
   - % Passing Math: 66.9%, % Passing Reading: 69.7%, % Overall Passing: 65.1%
 
-- We can see there is a drastic difference in the passing rates once we replace the 9th grade math and reading scores. This is quite a difference in average scores relative to other schools. Before we replaced the values, Thomas High school ranked 2nd among all schools in the % Overall Passing category:
+- We can see there is a drastic difference in the passing rates once we replace the 9th grade math and reading scores. This is quite a difference in average scores relative to other schools. Before we replaced the values, Thomas High School ranked 2nd among all schools in the % Overall Passing category:
 
 ![](https://github.com/christianhargett/School_District_Analysis/blob/master/Resources/Top_Schools_Before.png)
 
