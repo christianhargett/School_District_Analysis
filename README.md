@@ -44,3 +44,23 @@
 ![](https://github.com/christianhargett/School_District_Analysis/blob/master/Resources/Per_School_Spending_After.png)
 
 - We can see that the "630-644" bin passing rates have dropped. This is because Thomas High School is included in this bin, and when we replaced their 9th grade scores their passing rates also dropped.
+
+- Our school size dataframes portray a similar story. Below is the school size dataframe that groups the metrics into 3 bins based off of students per school:
+
+![](https://github.com/christianhargett/School_District_Analysis/blob/master/Resources/School_Size_Before.png)
+
+- Once we replace our values we are left with the below dataframe:
+
+![](https://github.com/christianhargett/School_District_Analysis/blob/master/Resources/School_Size_After.png)
+
+- We can see that the passing rates for the Medium school size bin has dropped due to Thomas High School's new data in the dataset.
+
+- Lastly we have the scores by school type dataframe. This dataframe simply groups the metrics based off of the school type, Charter or District. Our initial dataframe is as follows:
+
+![](https://github.com/christianhargett/School_District_Analysis/blob/master/Resources/School_Type_Before.png)
+
+- Once we replace the values, our new dataframe is as follows:
+
+![](https://github.com/christianhargett/School_District_Analysis/blob/master/Resources/School_Type_After.png)
+
+- We can see that the passing rates have dropped for Charter, since Thomas High School is a charter school.
